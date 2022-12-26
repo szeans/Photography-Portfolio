@@ -1,26 +1,35 @@
 .App {
-  text-align: center;
-  margin-inline: 20%;
-  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+}
+
+#name {
+  font-weight: bold;
+}
+
+.pics, .extras {
+  padding-bottom: 20px;
 }
 
 .nav {
-  display: flex;
-  justify-content: space-between;
-  font-size: x-large;
+  margin-left: 70px;
+  margin-top: 40px;
+  font-size: large;
+  padding-right: 100px;
   color: black;
-
   -webkit-user-select: none; /* Safari */        
   -moz-user-select: none; /* Firefox */
   -ms-user-select: none; /* IE10+/Edge */
   user-select: none; /* Standard */
 }
 
-.nav .links {
+.links, a, #name {
+  display: block;
+  block-size: 30px;
   color: black;
-  padding-left: 25px;
+  text-decoration: none;
 }
 
-.nav .links:hover {
-  color:rgb(196, 157, 0);
+.nav .links:hover, .links:active {
+  color:rgb(110, 110, 110);
 }
