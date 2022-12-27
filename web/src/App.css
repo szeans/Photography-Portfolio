@@ -34,6 +34,6 @@
   font-size: medium;
 }
 
-a:hover, .links:hover, Link:active {
-  color:rgb(100, 100, 100);
+.linkss:hover, .links:hover, a.active {
+  color:rgb(90, 90, 90);
 }
