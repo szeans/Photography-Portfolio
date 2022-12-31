@@ -1,4 +1,5 @@
 import './BNW.css';
+import {Index} from './index';
 import React, { useEffect } from 'react';
 
 export function BNW() {
@@ -8,7 +9,10 @@ export function BNW() {
 
   return (
     <div>
-      <h3>bnw photos!</h3>
+    <Index />
+    <div id = "body">
+    <h3>bnw photos!</h3>
+    </div>
     </div>
   );
 }

@@ -1,4 +1,17 @@
+* {
+  overflow: hidden;
+}
+
 #body {
-  padding-top: 30px;
-  padding-right: 60px;
+  position: fixed;
+  display: inline-block;
+  width: 50%;
+  top: 55px;
+}
+
+img {
+  width: 280px;
+  float: left;
+  padding-right: 30px;
+  padding-left: 20px;
 }

@@ -1,4 +1,5 @@
 import './Color.css';
+import {Index} from './index';
 import React, { useEffect } from 'react';
 
 export function Color() {
@@ -8,7 +9,10 @@ export function Color() {
 
   return (
     <div>
-      <h3>Color photos</h3>
+    <Index />
+    <div id = "body">
+    <h3>Color photos</h3>
+    </div>
     </div>
   );
 }
