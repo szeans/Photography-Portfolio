@@ -1,17 +1,10 @@
-* {
-  overflow: hidden;
-}
-
 #body {
-  position: fixed;
-  display: inline-block;
-  width: 50%;
-  top: 55px;
+  padding-left: 220px;
+  padding-top: 40px;
 }
 
-img {
+#profile {
   width: 280px;
   float: left;
   padding-right: 30px;
-  padding-left: 20px;
 }

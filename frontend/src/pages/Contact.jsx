@@ -12,10 +12,17 @@ export function Contact() {
     <div>
     <Index id = "index"/>
     <div id = "body">
-    <img src = {pp} alt = "profile photo" />
+    <img id = "profile" src = {pp} alt = "profile photo" />
+      <p>Yeonseung "Sean" Choi</p>
       <p>Full time student pursuing a Bachelor of Science in Computer Science at Purdue University.</p>
-      <p>Part time hobbyist undertaking photography, reading, skateboarding, fashion, music production, and weight training.</p>
-      <p>e: ysc@purdue.edu</p>
+      <br />
+      <p>
+        e: ysc@purdue.edu <br />
+        ig: @szeans  <br />
+        github: @szean  <br />
+        linkedin: @szean  <br />
+        soundcloud @szean  <br />
+      </p>
     </div>
     </div>
   );

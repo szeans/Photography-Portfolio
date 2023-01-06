@@ -4,12 +4,15 @@
 }
 
 .nav {
-  display: inline-block;
   margin-left: 60px;
   margin-top: 40px;
   padding-right: 0px;
   border-right: 0px;
   width: 130px;
+  height: 100%;
+  position: fixed;
+  overflow: auto;
+
   color: black;
   -webkit-user-select: none; /* Safari */        
   -moz-user-select: none; /* Firefox */
