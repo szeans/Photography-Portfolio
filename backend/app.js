@@ -7,7 +7,6 @@ import logger from "morgan";
 import path from "node:path";
 import {fileURLToPath} from "node:url";
 
-import archiveRouter from "./routes/archive.js";
 import bnwRouter from "./routes/BNW.js";
 import colorRouter from "./routes/Color.js";
 import contactRouter from "./routes/Contact.js";
@@ -23,14 +22,6 @@ app.use(cors());
 
 app.use("/", indexRouter);
 app.use(express.static(path.join(__dirname, "public")));
-
-app.use(
-  "/archive",
-  (req, res, next) => {
-    next();
-  },
-  archiveRouter
-);
 
 app.use(
   "/bnw",

@@ -2,7 +2,7 @@ import express from "express";
 import fs from "fs";
 const router = express.Router();
 
-const all = fs.readdirSync("../photos/bnw");
+const all = fs.readdirSync("../frontend/photos/bnw");
 const imgs = [];
 
 for (const file of all) {
